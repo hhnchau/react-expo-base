@@ -1,0 +1,7 @@
+#Create a project named my-app
+expo init my-app
+#Navigate to the project directory
+cd my-app
+
+#Start
+expo start
