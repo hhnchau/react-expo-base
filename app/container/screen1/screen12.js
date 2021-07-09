@@ -7,21 +7,21 @@ const Screen1 = ({ navigation, route }) => {
             flex: 1,
             justifyContent: 'center',
             alignItems: 'center',
-            backgroundColor: 'yellow',
+            backgroundColor: 'blue',
         }}
         >
 
         <Button
             title="Next"
             onPress={()=>{
-                navigation.navigate('Screen12')
+
             }}
         />
 
         <Button
             title="Back"
             onPress={()=>{
- 
+                navigation.navigate('Screen1')
             }}
         />
 

@@ -12,6 +12,20 @@ const Screen2 = ({ navigation, route }) => {
         }}
         >
 
+        <Button
+            title="Next"
+            onPress={()=>{
+                navigation.navigate('Screen22')
+            }}
+        />
+
+        <Button
+            title="Back"
+            onPress={()=>{
+ 
+            }}
+        />
+
         </View>
     )
 }
